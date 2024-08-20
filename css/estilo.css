@@ -1,0 +1,47 @@
+/* Adicionando fonte pelo google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+
+h1{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Adicionando/configurando imagem/ ou tabela */
+
+img {
+    height: 25 px; /*altura */
+    width: 25px; /* largura */
+}
+
+td {
+    text-align: center;
+}
+
+pais {
+    text-align: left;
+    width: 200;
+}
+
+td {
+    width: 30px;
+}
+
+td:nth-child(1) {
+    width: 15px;
+}
+
+td:nth-child(3) {
+    text-align: left;
+    width: 200px;
+}
+
+img:hover {
+    transform: scale(3);
+}
+
+tr:hover {
+background-color: gray;
+}
